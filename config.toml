@@ -1,0 +1,279 @@
+# Page settings
+
+baseURL = "http://example.org/"
+languageCode = "en"
+title = ""
+theme = "devresume"
+googleAnalytics = "UA-XXXXXXX-Y"
+
+
+
+
+
+
+[params]
+    author = "CowboySmall"
+    description = "DevResume - Bootstrap 4 Resume/CV Template For Software Developers"
+
+
+    primaryColor = "#d72f93"
+    textPrimaryColor = "#292929"
+
+
+
+
+    [params.profile]
+        enable = true
+        name = "Julissa Jansen"
+        tagline = "Senior Software Engineer"
+        avatar = "headshot.png"
+
+
+
+
+
+
+
+    [params.contact]
+        enable = true
+        location = "Plymouth"
+
+        [[params.contact.list]]
+        icon = "fas fa-envelope-square"
+        url = "mailto:#"
+        text = "julissa.jansen@gmail.com`"
+        [[params.contact.list]]
+        icon = "fas fa-globe"
+        url = "#"
+        text = "www.julissa.io"
+
+
+
+
+
+
+
+    [params.skills]
+        enable = true
+
+        [[params.skills.list]]
+        title = "Technical"
+        [[params.skills.list.items]]
+        details = "Ruby/Rails"
+        [[params.skills.list.items]]
+        details = "Typescript/React"
+        [[params.skills.list.items]]
+        details = "PostgreSQL/MySQL"
+        [[params.skills.list.items]]
+        details = "Object-oriented design"
+        [[params.skills.list.items]]
+        details = "Design and implement database structures"
+        [[params.skills.list.items]]
+        details = "Lead and deliver complex software systems"
+
+        [[params.skills.list]]
+        title = "Professional"
+        [[params.skills.list.items]]
+        details = "Effective communication"
+        [[params.skills.list.items]]
+        details = "Team player"
+        [[params.skills.list.items]]
+        details = "Strong problem solver"
+        [[params.skills.list.items]]
+        details = "Good time management"
+
+
+
+
+
+
+
+
+    [params.education]
+        enable = true
+
+        [[params.education.list]]
+        degree = "Bachelors in Communications"
+        university = "Simmons College"
+        dates = "2007 - 2011"
+      
+
+
+
+
+
+
+
+
+
+    [params.languages]
+        enable = true
+
+        [[params.languages.list]]
+        name = "English"
+        level = 'Native'
+        [[params.languages.list]]
+        name = "Spanish"
+        level = 'Native'
+
+
+
+
+
+
+
+
+    [params.interests]
+        enable = true
+
+        [[params.interests.list]]
+        name = "Reading"
+        [[params.interests.list]]
+        name = "Crafting"
+        [[params.interests.list]]
+        name = "Photography"
+        [[params.interests.list]]
+        name = "Travelling"
+
+
+
+
+
+
+
+
+    [params.summary]
+        enable = true
+        text = "A Senior Software Engineer with a decade's worth of professional experience, specializing in fullstack development, PSQL, Ruby, Rails, Typescript, and React. A proven track record of managing large scale software engineering projects to support integrations and extensibility."
+
+
+
+
+
+
+
+
+    [params.experience]
+        enable = true
+
+        [[params.experience.list]]
+        title = "Senior Software Engineer II"
+        dates = "2019 - Present"
+        company = "ActBlue"
+        details = "A leading performer with cross-team aptitude and the ability to lead projects. Develop external user-facing features using agile development methodologies. Optimize new and existing software features for performance, security, stability and accessibility. Key technologies: Ruby on Rails, RSpec, PSQL, Typescript/React, Looker, Datadog, Bugsnag, Snyk, AWS, Git"
+        [[params.experience.list.items]]
+        details = "Overhauled circuit breaker algorithm code, making it easier to understand while handling hundreds of thousands of event notifications per day"
+        [[params.experience.list.items]]
+        details = "Mentored and coached junior software engineers, helping them establish goals and lead projects"
+        [[params.experience.list.items]]
+        details = "Guided and led the team on various projects, including a Google Sheets integration, overhaul of external event notification documentation and embeddable fundraising goal trackers"
+
+        [[params.experience.list]]
+        title = "Software Engineer II"
+        dates = "2016 - 2018"
+        company = "Procore"
+        details = "Collaborative team member with extensive microservice architecture knowledge. Built microservices which transformed financial data to comply with ERP data models. "
+        [[params.experience.list.items]]
+        details = "Built and maintained microservices leveraging third-party APIs, allowing customers to send their financial data from Procore into their ERP system"
+        [[params.experience.list.items]]
+        details = "Built consumer-facing data export features for the Procore platform"
+        [[params.experience.list.items]]
+        details = "Collaborated with Product Management and User Experience experts regarding product definition, schedule, scope and project-related decisions"
+
+        [[params.experience.list]]
+        title = "Associate Software Engineer"
+        dates = "2014 - 2016"
+        company = "Constant Contact"
+        details = "Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+
+        
+
+        
+        
+        
+        
+        
+
+        
+        
+        
+        
+        
+
+
+
+
+
+
+
+
+
+
+
+    [params.projects]
+        enable = false
+
+        [[params.projects.list]]
+        title = "Project Lorem Ipsum"
+        meta = "Open Source"
+        tagline = "You can use this section for your side projects. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+
+        [[params.projects.list]]
+        title = "Project Sed Fringilla"
+        meta = "Open Source"
+        tagline = "You can use this section for your side projects. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim."
+
+        [[params.projects.list]]
+        title = "Project Praesent"
+        meta = "Open Source"
+        tagline = "You can use this section for your side projects. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim."
+
+
+
+
+
+
+
+
+
+
+    [params.information]
+        enable = true
+
+        [[params.information.list]]
+        title = "Volunteering and Talks"
+         [[params.information.list.items]]
+        details = "2019 · Code 2040"
+        [[params.information.list.items]]
+        details = "2017 · RailsBridge San Diego"
+        [[params.information.list.items]]
+        details = "2014 · RailsBridge Boston"
+
+        [[params.information.list]]
+        title = "Interests"
+        details = "Reading, Crafting, Photography, Travelling"
+
+
+
+
+
+
+
+
+    [params.social]
+        enable = true
+
+        [[params.social.list]]
+        icon = "fab fa-github-square"
+        url = "//github.com/julissa"
+        title = "Julissa"
+        [[params.social.list]]
+        icon = "fab fa-linkedin"
+        url = "//linkedin.com/in/julissaj"
+        title = "Julissa Jansen"
+        
+
+
+
+
+
