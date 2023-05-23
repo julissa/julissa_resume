@@ -184,9 +184,15 @@ googleAnalytics = "UA-XXXXXXX-Y"
         title = "Associate Software Engineer"
         dates = "2014 - 2016"
         company = "Constant Contact"
-        details = "Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
-
-        
+        details = "Six-month apprentice software engineer who was hired as a full-time engineer. Worked on a Ruby on Rails application with a Backbone front-end."
+        [[params.experience.list.items]]
+        details = "Developed and maintained front- and back-end of site using Ruby on Rails and Backbone.js"
+        [[params.experience.list.items]]
+        details = "Worked in an agile environment with a cross-functional team, releasing features to production every 2 weeks"
+        [[params.experience.list.items]]
+        details = "Documented steps to recreate any bugs or issues using Jira as our bug tracker"
+        [[params.experience.list.items]]
+        details = "Wrote feature tests using Capybara"
 
         
         
@@ -249,9 +255,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
         [[params.information.list.items]]
         details = "2014 · RailsBridge Boston"
 
-        [[params.information.list]]
-        title = "Interests"
-        details = "Reading, Crafting, Photography, Travelling"
+    
 
 
 
