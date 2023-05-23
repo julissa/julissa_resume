@@ -36,12 +36,12 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
     [params.contact]
         enable = true
-        location = "Plymouth"
+        location = "Plymouth, MA"
 
         [[params.contact.list]]
         icon = "fas fa-envelope-square"
         url = "mailto:#"
-        text = "julissa.jansen@gmail.com`"
+        text = "julissa.jansen@gmail.com"
         [[params.contact.list]]
         icon = "fas fa-globe"
         url = "#"
@@ -144,7 +144,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
     [params.summary]
         enable = true
-        text = "A Senior Software Engineer with a decade's worth of professional experience, specializing in fullstack development, PSQL, Ruby, Rails, Typescript, and React. A proven track record of managing large scale software engineering projects to support integrations and extensibility."
+        text = "A Senior Software Engineer with a decade's worth of professional experience, specializing in fullstack development, psql, Ruby, Rails, Typescript, and React. A proven track record of managing large scale software engineering projects to support integrations and extensibility."
 
 
 
