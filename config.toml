@@ -1,6 +1,6 @@
 # Page settings
 
-baseURL = "http://http://julissa.github.io/"
+baseURL = "julissa.github.io/"
 languageCode = "en"
 title = ""
 theme = "devresume"
