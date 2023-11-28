@@ -1,6 +1,6 @@
 # Page settings
 
-baseURL = "julissa.io"
+baseURL = "https://julissa.io/"
 languageCode = "en"
 title = ""
 theme = "devresume"

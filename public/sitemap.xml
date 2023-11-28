@@ -2,10 +2,10 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>julissa.io/</loc>
+    <loc>https://julissa.io/</loc>
   </url><url>
-    <loc>julissa.io/categories/</loc>
+    <loc>https://julissa.io/categories/</loc>
   </url><url>
-    <loc>julissa.io/tags/</loc>
+    <loc>https://julissa.io/tags/</loc>
   </url>
 </urlset>
