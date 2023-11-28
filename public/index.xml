@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title></title>
-    <link>https://julissa.io/</link>
+    <link>https://julissa.github.io/julissa_resume/</link>
     <description>Recent content on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="https://julissa.io/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language><atom:link href="https://julissa.github.io/julissa_resume/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
